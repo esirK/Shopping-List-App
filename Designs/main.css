@@ -42,6 +42,20 @@ button a {
     clear: both;
     display: table;
 }
+/* Extra styles for the cancel button */
+.cancelbtn {
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn{
+    float: left;
+    width: 50%;
+}
+
+.cancelbtn:hover,.signupbtn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -69,4 +83,18 @@ button a {
 /* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+.form-body {
+    padding: 30px 30px 30px;
+}
+
+h2 {
+    text-align: center;
+    {font-family: "Karma", sans-serif}
 }
